@@ -88,7 +88,7 @@ CREATE TABLE `login` (
 
 LOCK TABLES `login` WRITE;
 /*!40000 ALTER TABLE `login` DISABLE KEYS */;
-INSERT INTO `login` VALUES ('aka','1234'),('Anshuman','Shivam@123');
+INSERT INTO `login` VALUES ('aka','1234'),('demo_user','demo_password');
 /*!40000 ALTER TABLE `login` ENABLE KEYS */;
 UNLOCK TABLES;
 

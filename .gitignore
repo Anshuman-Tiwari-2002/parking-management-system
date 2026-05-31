@@ -19,5 +19,7 @@ nbproject/private/
 # IDE files
 .idea/
 
-# macOS AppleDouble files
+# macOS metadata
+.DS_Store
 ._*
+.!*
