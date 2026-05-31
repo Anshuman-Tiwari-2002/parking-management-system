@@ -89,7 +89,7 @@ public class addspace extends javax.swing.JFrame {
 try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
        
           
             PreparedStatement pst3 = con.prepareStatement("insert into park_space(space_name,total_space) values(?,?)");

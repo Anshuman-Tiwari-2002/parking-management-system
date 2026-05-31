@@ -33,7 +33,7 @@ public class showspace extends javax.swing.JFrame{
         try
         {
              Class.forName("com.mysql.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","Shivam@123");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","YOUR_DB_PASSWORD");
        Statement stm=con.createStatement();     
     String sql="select * from park_space"; 
     ResultSet rs =stm.executeQuery(sql);
@@ -130,7 +130,7 @@ public class showspace extends javax.swing.JFrame{
  try
     {
         Class.forName("com.mysql.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","Shivam@123");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","YOUR_DB_PASSWORD");
       
     
     Statement stm=con.createStatement();

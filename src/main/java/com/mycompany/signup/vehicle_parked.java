@@ -29,7 +29,7 @@ public class vehicle_parked extends javax.swing.JFrame {
         try
         {
              Class.forName("com.mysql.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","Shivam@123");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","YOUR_DB_PASSWORD");
        Statement stm=con.createStatement();     
     String sql="select * from vehicle_details"; 
     ResultSet rs =stm.executeQuery(sql);

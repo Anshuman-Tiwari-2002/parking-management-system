@@ -107,7 +107,7 @@ public class addemployees extends javax.swing.JFrame {
         try {
 
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
 
             PreparedStatement pst3 = con
                     .prepareStatement("insert into employee(emp_name,user_name,password) values(?,?,?)");

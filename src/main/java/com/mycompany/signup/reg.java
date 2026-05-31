@@ -129,7 +129,7 @@ public class reg extends javax.swing.JFrame {
 try
 {
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","Shivam@123");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","YOUR_DB_PASSWORD");
     
     PreparedStatement pst=con.prepareStatement("insert into signup(`fname`,`lname`,`uname`,`passwd`,`confpass`,`phno`) values(?,?,?,?,?,?)");
     PreparedStatement pst1=con.prepareStatement("insert into login(`uname`,`password`) values(?,?)");

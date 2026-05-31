@@ -146,7 +146,7 @@ public class removeemp extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
             String empid = id.getText();
             int empid1;
             empid1 = Integer.parseInt(empid);
@@ -169,7 +169,7 @@ public class removeemp extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
             String empid = id.getText();
             int empid1;
             empid1 = Integer.parseInt(empid);

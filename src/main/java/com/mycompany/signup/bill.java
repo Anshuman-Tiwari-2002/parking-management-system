@@ -222,7 +222,7 @@ public class bill extends javax.swing.JFrame {
         try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
             // String ticknum=tickno.getText();
             // if("Search by Ticke No".equals(ticknum))
             // ticknum="11";
@@ -274,7 +274,7 @@ public class bill extends javax.swing.JFrame {
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {// GEN-FIRST:event_jButton2ActionPerformed
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
             // String ticknum=tickno.getText();
             // int id;
             // id = Integer.parseInt(ticknum);

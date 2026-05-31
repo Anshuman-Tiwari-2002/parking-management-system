@@ -141,7 +141,7 @@ public class addvehicle extends javax.swing.JFrame {
         try {
 
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "Shivam@123");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/DBMS", "root", "YOUR_DB_PASSWORD");
 
             String plot_name=pname.getText();
             String rc_no=rcno.getText();

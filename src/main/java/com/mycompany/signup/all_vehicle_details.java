@@ -28,7 +28,7 @@ public class all_vehicle_details extends javax.swing.JFrame {
         try
         {
              Class.forName("com.mysql.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","Shivam@123");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","YOUR_DB_PASSWORD");
        Statement stm=con.createStatement();     
     String sql="select * from all_vehicle"; 
     ResultSet rs =stm.executeQuery(sql);
@@ -134,7 +134,7 @@ public class all_vehicle_details extends javax.swing.JFrame {
    try
         {
              Class.forName("com.mysql.jdbc.Driver");
-    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","Shivam@123");
+    Connection con=DriverManager.getConnection("jdbc:mysql://localhost/DBMS","root","YOUR_DB_PASSWORD");
        Statement stm=con.createStatement();     
        String rno=rc_no.getText();
     String sql="select * from all_vehicle where rc_no='"+rno+"'";
