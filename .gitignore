@@ -1,0 +1,23 @@
+# Maven
+target/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# NetBeans
+nbproject/private/
+
+# IDE files
+.idea/
+
+# macOS AppleDouble files
+._*
