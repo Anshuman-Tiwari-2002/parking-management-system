@@ -315,7 +315,7 @@ mvn exec:java -Dexec.mainClass="com.mycompany.signup.login"
 Software Engineer | Java Developer | Full Stack Enthusiast
 
 * GitHub: https://github.com/Anshuman-Tiwari-2002
-* LinkedIn: https://www.linkedin.com/in/anshuman-tiwari-2002/
+* LinkedIn: (https://www.linkedin.com/in/anshuman-tiwari-713a04206 )
 
 Developed as a Java Swing + MySQL Database Management System project.
 
